@@ -26,9 +26,6 @@ SOURCES +=  $$files(*.c, true)
 HEADERS +=  $$files(*.h, true)
 
 unix {
-    target.path = /usr/lib
+    target.path = /opt/RandomOps
     INSTALLS += target
 }
-
-SUBDIRS += \
-    RandomOps.pro
